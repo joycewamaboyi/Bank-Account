@@ -16,3 +16,25 @@ $(function(){
    currentAccount = newAccount;
    newAccount.output();
  });
+ $("#form-balance").submit(function(event){
+    event.preventDefault();
+    if(currentAccount != "")
+    {
+      var deposit = parseFloat($("#input-deposit").val());
+      var withdraw = parseFloat($("#input-withdraw").val());
+      if(isNaN(deposit))
+      {
+        deposit = 0;
+      }
+      if(isNaN(withdraw))
+      {
+        withdraw = 0;
+      }
+      var temp = deposit-withdraw;
+      //console.log(formatUSD(temp));
+      currentAccount.changeBalance(temp);
+      currentAccount.output();
+    }
+  });
+ 
+ });
