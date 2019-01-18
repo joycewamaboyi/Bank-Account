@@ -13,7 +13,7 @@ Moringa School
 you must have Javascript, VS code ,and Browser.
 ...
 ## link to live site on GitHub Pages
-
+https://joycewamaboyi.github.io/Bank-Account
 ## Contact information
 ### twitter: joycewamaboyi
 ### Linkedin: Joyce Tuyishime
