@@ -10,7 +10,7 @@ $(function(){
    {
      balance = 0;
    }
-   var newAccount = new Account(userName,accountNumber,address,telephone number,e-mail address,abalance);
+   var newAccount = new Account(userName,accountNumber,balance);
    currentAccount = newAccount;
    newAccount.output();
  });
@@ -28,13 +28,13 @@ $(function(){
      {
        withdraw = 0;
      }
-     var num = deposit-withdraw;
-     currentAccount.changeBalance(num);
+     var temp = deposit-withdraw;
+     currentAccount.changeBalance(temp);
      currentAccount.output();
    }
  });
-
-//initial logic
+});
+//Create a constructor for object Task
 function Account(inputUserName,inputAccountNumber,inputBalance){
  this.name = inputUserName;
  this.number= inputAccountNumber;
@@ -48,12 +48,11 @@ Account.prototype.changeBalance = function (amount)
 {
  this.balance += amount;
 }
-function clear(num)
+function clear(temp)
 {
- $(num).val("");
+ $(temp).val("");
 }
-function formatRWF(numString)
+function formatRWF(tempString)
 {
- return numString.toLocaleString('en-RW',{style: 'currency', currency: 'RWF'});
+ return tempString.toLocaleString('en-RW',{style: 'currency', currency: 'RWF'});
 }
-});
