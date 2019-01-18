@@ -1,0 +1,41 @@
+body  {
+ background-image: url("https://myrealdomain.com/images/background-nuvens-4.png");
+  background-size: cover;
+    padding: 6px;
+    margin: 6px;
+   }
+   
+   .mod-form {
+    text-align: center;
+    padding: 6px;
+    margin: 6px;
+   }
+   
+   .mod-div  {
+    padding: 2px;
+    margin: 2px;
+    margin-right: 15px;
+    
+   }
+   h1{
+    text-align: center;
+   }
+   .wall{
+       text-align: justify;
+   }
+   .well,jumbotron{
+       background-color: lightcoral;
+   }
+   .center{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    margin-top: -2px;
+    margin-bottom: 20px;
+    width:100px;
+     height:80px;
+   }  
+   #first{
+       display: inline;   }
+   
