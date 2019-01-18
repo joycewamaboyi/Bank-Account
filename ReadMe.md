@@ -13,3 +13,9 @@ Moringa School
 you must have Javascript, VS code ,and Browser.
 ...
 ## link to live site on GitHub Pages
+
+## Contact information
+### twitter: joycewamaboyi
+### Linkedin: Joyce Tuyishime
+## License and Copyright information
+    MTI,Copyright &copy; 2019 by Joyce
